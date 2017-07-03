@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1498681514 source:/home/pb/Programowanie/C++/net/main.cpp
+	<iostream>
+	"Server.h"
+	"ServerManager.h"
+
+1499005500 /home/pb/Programowanie/C++/net/include/Server.h
+	<unistd.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<map>
+	<iostream>
+
+1499005577 source:/home/pb/Programowanie/C++/net/src/Server.cpp
+	"Server.h"
+
+1499005849 source:/home/pb/Programowanie/C++/net/src/ServerManager.cpp
+	"ServerManager.h"
+
+1499005699 /home/pb/Programowanie/C++/net/include/ServerManager.h
+	"Server.h"
+	<iostream>
+	<string>
+
